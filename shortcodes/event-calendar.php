@@ -67,9 +67,8 @@ function tribe_events_paged($atts){
 			            		event_calendar_past_views();
 							endwhile;
 		            echo '</div>';*/
-		            echo '<h5 class="upcoming-past-event-title">Past Events</h5>
-							<div class="past-event ' . $event_calendar_grid . '"">';
-				            echo "There are no upcoming events";
+		            echo '<div class="past-event ' . $event_calendar_grid . '"">';
+				            echo "<h5 style='text-align:center'>There are no upcoming events</h5>";
 		            echo '</div>';
                 break;
 	        }
