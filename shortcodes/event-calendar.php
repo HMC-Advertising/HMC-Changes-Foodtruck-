@@ -67,7 +67,7 @@ function tribe_events_paged($atts){
 			            		event_calendar_past_views();
 							endwhile;
 		            echo '</div>';*/
-		            echo '<div class="past-event ' . $event_calendar_grid . '"">';
+		            echo '<div class="past-event ' . $event_calendar_grid . ' no-events"">';
 				            echo "
 				            	<div style='width:50%; margin:auto;display: block;clear: both;overflow: auto;'>
 				            <h5 style='text-align:center; line-height: 26px;'>Check back soon to see where good events are going down. With so many successful events last year, this year will be even more ambitious thanks to all of you!</h5></div>";
