@@ -46,7 +46,7 @@ function tribe_events_paged($atts){
 			<?php 
 			switch ($views) {
 	            case 'all':
-					echo '<div class="all-event ' . $event_calendar_grid . '">';
+	            	echo '<div class="all-event ' . $event_calendar_grid . '">';
 			            while ( have_posts() ) : the_post();
 			                event_calendar_all_views();
 						endwhile;
@@ -54,7 +54,12 @@ function tribe_events_paged($atts){
                 break;
 	            case 'upcoming-past':
 	            //<h5 class="upcoming-past-event-title">Upcoming Events</h5>
-					echo '
+				
+					echo '<div class="wpb_text_column wpb_content_element ">
+						<div class="wpb_wrapper">
+							<h1 style="text-align: center;">Events</h1>
+						</div>';
+					echo '<div class="vc_empty_space __web-inspector-hide-shortcut__" style="height: 32px"><span class="vc_empty_space_inner"></span></div>';	
 							<div class="upcoming-event ' . $event_calendar_grid . '"">';
 				            while ( have_posts() ) : the_post();
 			                 	event_calendar_upcoming_views();
@@ -67,7 +72,7 @@ function tribe_events_paged($atts){
 			            		event_calendar_past_views();
 							endwhile;
 		            echo '</div>';*/
-		            echo '<div class="past-event ' . $event_calendar_grid . ' no-events"">';
+		            echo '<div class="past-event ' . $event_calendar_grid . ' no-events" style="background:url(http://dev.goodfoodtruckvt.org/wp/wp-content/uploads/2016/01/events-header.png)">';
 				            echo "
 				            	<div style='width:50%; margin:auto;display: block;clear: both;overflow: auto;'>
 				            <h5 style='text-align:center; line-height: 26px;'>Check back soon to see where good events are going down. With so many successful events last year, this year will be even more ambitious thanks to all of you!</h5></div>";
