@@ -65,7 +65,7 @@ function tribe_events_paged($atts){
 				            while ( have_posts() ) : the_post();
 			                 	event_calendar_upcoming_views();
 							endwhile;
-		            echo '</div>';
+		            echo '</div></div>';
 
 					/*echo '<h5 class="upcoming-past-event-title">Past Events</h5>
 							<div class="past-event ' . $event_calendar_grid . '"">';
