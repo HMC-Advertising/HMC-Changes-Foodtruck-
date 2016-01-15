@@ -69,8 +69,8 @@ function tribe_events_paged($atts){
 		            echo '</div>';*/
 		            echo '<div class="past-event ' . $event_calendar_grid . '"">';
 				            echo "
-				            	<div style='width:75%; margin:auto;'>
-				            <h5 style='text-align:center'>Check back soon to see where good events are going down. With so many successful events last year, this year will be even more ambitious thanks to all of you!</h5></div>";
+				            	<div style='width:50%; margin:auto;display: block;clear: both;overflow: auto;'>
+				            <h5 style='text-align:center; line-height: 26px;'>Check back soon to see where good events are going down. With so many successful events last year, this year will be even more ambitious thanks to all of you!</h5></div>";
 		            echo '</div>';
                 break;
 	        }
