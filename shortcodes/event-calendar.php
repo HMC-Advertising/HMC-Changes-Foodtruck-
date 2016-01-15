@@ -55,12 +55,13 @@ function tribe_events_paged($atts){
 	            case 'upcoming-past':
 	            //<h5 class="upcoming-past-event-title">Upcoming Events</h5>
 				
-					echo '<div class="wpb_text_column wpb_content_element ">
+					echo '<div class="upcoming-event ' . $event_calendar_grid . '"">
+							<div class="wpb_text_column wpb_content_element ">
 						<div class="wpb_wrapper">
 							<h1 style="text-align: center;">Events</h1>
 						</div>';
-					echo '<div class="vc_empty_space __web-inspector-hide-shortcut__" style="height: 32px"><span class="vc_empty_space_inner"></span></div>	
-							<div class="upcoming-event ' . $event_calendar_grid . '"">';
+
+					echo '<div class="vc_empty_space __web-inspector-hide-shortcut__" style="height: 32px"><span class="vc_empty_space_inner"></span></div>';
 				            while ( have_posts() ) : the_post();
 			                 	event_calendar_upcoming_views();
 							endwhile;
