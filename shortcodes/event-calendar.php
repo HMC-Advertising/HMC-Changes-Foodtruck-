@@ -73,10 +73,10 @@ function tribe_events_paged($atts){
 			            		event_calendar_past_views();
 							endwhile;
 		            echo '</div>';*/
-		            echo '<div class="past-event ' . $event_calendar_grid . ' no-events" style="background:url(http://dev.goodfoodtruckvt.org/wp/wp-content/uploads/2016/01/events-header.png)">';
+		            echo '<div class="past-event ' . $event_calendar_grid . ' no-events" style="margin-top:-50px; margin-bottom: -50px; padding-top:20px; padding-bottom:20px;background:url(http://dev.goodfoodtruckvt.org/wp/wp-content/uploads/2016/01/events-header.png)">';
 				            echo "
 				            	<div style='width:50%; margin:auto;display: block;clear: both;overflow: auto;'>
-				            <h5 style='text-align:center; line-height: 26px;'>Thanks for hanging out with us in 2015. We’ll be announcing our lineup of appearances and events for 2016 over the next few months, so check back soon!</h5></div>";
+				            <h4 style='text-align:center; line-height: 26px; color:#ffffff;  '>Thanks for hanging out with us in 2015. We’ll be announcing our lineup of appearances and events for 2016 over the next few months, so check back soon!</h4></div>";
 		            echo '</div>';
                 break;
 	        }
