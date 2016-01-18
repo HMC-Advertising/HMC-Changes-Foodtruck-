@@ -82,7 +82,7 @@ function tribe_events_paged($atts){
 		            	echo '<div class="past-event ' . $event_calendar_grid . ' no-events">';
 				            echo "
 				            	<div style='width:50%; margin:auto;display: block;clear: both;overflow: auto;'>
-				            <h4 style='text-align:center; line-height: 26px; color:#ffffff;  '>Thanks for hanging out with us in 2015. We’ll be announcing our lineup of appearances and events for 2016 over the next few months, so check back soon!</h4></div>";
+				            <h4 style='text-align:center;  '>Thanks for hanging out with us in 2015. We’ll be announcing our lineup of appearances and events for 2016 over the next few months, so check back soon!</h4></div>";
 		            	echo '</div>';
 		          //  }
 		            
