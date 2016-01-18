@@ -64,7 +64,7 @@ function tribe_events_paged($atts){
 							endwhile;
 		            echo '</div>';*/
 		            if(have_posts() !== false ){
-		            	echo '<div class="events-section df_row-fluid">
+		            	echo '<div class="events-section">
 		            			<h2 style="text-align:center"> Events</h2>
 		            				<div class="upcoming-event ' . $event_calendar_grid . '"">';
 
