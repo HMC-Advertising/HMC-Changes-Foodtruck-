@@ -65,13 +65,13 @@ function tribe_events_paged($atts){
 		            echo '</div>';*/
 		            if(have_posts() !== false ){
 		            	echo '<div class="events-section">
-		            	<h2 style="text-align:center"> Events</h2>
-		            	<div class="upcoming-event ' . $event_calendar_grid . '"">';
+		            			<h2 style="text-align:center"> Events</h2>
+		            				<div class="upcoming-event ' . $event_calendar_grid . '"">';
 
-						echo '<div class="entry-content">
+										echo '<div class="entry-content">
 
 
-						<span class="vc_empty_space_inner"></span></div>';
+						<span class="vc_empty_space_inner"></span>';
 					            while ( have_posts() ) : the_post();
 				                 	event_calendar_upcoming_views();
 								endwhile;
