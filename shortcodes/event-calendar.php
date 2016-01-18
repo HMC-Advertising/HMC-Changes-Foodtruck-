@@ -78,7 +78,7 @@ function tribe_events_paged($atts){
 			            echo '</div></div></div>';
 		            }
 
-		            else{
+		            else{*/
 		            	echo '<div class="past-event ' . $event_calendar_grid . ' no-events">';
 				            echo "
 				            	<div style='width:50%; margin:auto;display: block;clear: both;overflow: auto;'>
